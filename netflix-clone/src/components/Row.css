@@ -1,0 +1,22 @@
+.row-posters{
+display: flex;
+overflow-y: hidden;
+overflow-x: scroll;
+
+}
+.row-poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
+    /* transition: transform 450ms; */
+    padding: 3px;
+
+}
+ /* To hide the scroll show  */
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+.row-posters :hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
