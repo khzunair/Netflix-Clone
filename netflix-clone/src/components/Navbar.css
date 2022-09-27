@@ -8,6 +8,10 @@
     display: flex;
     justify-content: space-between;
     /* background-color: #111; */
+
+        /* animations  */
+        transition-timing-function: ease-in;
+        transition: all 0.4s;
 }
 .navLogo{
     position: fixed;
@@ -25,12 +29,5 @@
 .navBlack{
     background-color: #111;
     height: 25px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px;
-    z-index: 1;
-    display: flex;
-    display: flex;
-    justify-content: space-between;
+
 }

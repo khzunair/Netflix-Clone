@@ -34,7 +34,7 @@ const Banner = () => {
             <button className='bannerButtons'>Play</button>
             <button className='bannerButtons'>Add to My List</button>
             </div>
-            <h1 className='bannerDescription'>{movie?.overview}</h1>
+            <p className='bannerDescription'>{movie?.overview}</p>
         
         </div>
         <div className='banner-fade-effect'>
